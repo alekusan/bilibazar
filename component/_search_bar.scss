@@ -1,0 +1,23 @@
+
+.search_block{
+	display: flex;
+	.text_box, .loup_box{
+		position: relative;
+	}
+}
+
+.no_text{
+	color: transparent;
+}
+
+#text_box_adv, .loup_box_adv{
+    position: absolute;
+}
+
+#text_box_adv{
+	left: 0;
+}
+
+.loup_box_adv{
+	left: -74px;
+}
