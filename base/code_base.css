@@ -55,8 +55,27 @@ ul {
 
 main {
   background-color: #f0f0f0;
-  width: 100%;
-  height: 5000px; }
+  padding-top: 25px;
+  width: 100%; }
+
+.main_struct {
+  width: 900px;
+  margin: auto; }
+
+h2 {
+  text-align: center; }
+
+.block_promo, .block_top_sell, .block_last_item {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 620px;
+  margin: auto; }
+
+.grid_1 {
+  background-color: blue;
+  width: 200px;
+  height: 800px; }
 
 * {
   margin: 0;
